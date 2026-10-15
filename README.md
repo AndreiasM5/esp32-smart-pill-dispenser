@@ -4,6 +4,31 @@
 
 Built around an ESP32 dispenser and an ESP32-S3 camera node. Firmware is C++ using the Arduino framework and PlatformIO.
 
+<p align="center">
+  <img src="docs/media/printed-parts.jpg" alt="Printed dispenser housing, compartment wheel, and circular cover" width="760">
+</p>
+
+## See it in action
+
+[![Animated preview of the dispenser prototype](docs/media/dispenser-preview.gif)](docs/media/dispenser-demo.mp4)
+
+**[Watch the full dispenser demonstration with audio (51 seconds)](docs/media/dispenser-demo.mp4)**
+
+The clip shows the physical dispensing mechanism, controller wiring, confirmation button, and status display. The animated preview is silent; open the full MP4 for audio. If GitHub offers a download instead of playback, download the video and open it locally.
+
+## From CAD to printed parts
+
+| CAD design | Compartment wheel |
+| --- | --- |
+| ![Dispenser CAD model with the housing and wheel components](docs/media/cad-design.jpg) | ![Red printed dispensing wheel with radial compartments](docs/media/dispensing-wheel.jpg) |
+
+<details>
+<summary>3D printing process</summary>
+
+<img src="docs/media/3d-printing.jpg" alt="Dispenser housing being manufactured on a 3D printer" width="500">
+
+</details>
+
 ## How it works
 
 ```mermaid
